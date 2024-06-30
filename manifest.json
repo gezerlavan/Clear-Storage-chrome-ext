@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Clear Local Storage",
+  "version": "1.0",
+  "description": "Clears local storage for the current page.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  }
+}
